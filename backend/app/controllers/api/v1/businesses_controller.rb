@@ -1,5 +1,7 @@
 class Api::V1::BusinessesController < ApplicationController
   before_action :set_business, only: %i[show edit update destroy]
+  before_action :authenticate_user!
+
 
   def index
     businesses = Business.all
