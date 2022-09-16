@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  match_confidence: 1
+  is_matched: false
+  addresses: MyString
+  phone_numbers: MyString
+  websites: MyString
+  year_incorporated: MyString
+
+two:
+  match_confidence: 1
+  is_matched: false
+  addresses: MyString
+  phone_numbers: MyString
+  websites: MyString
+  year_incorporated: MyString
