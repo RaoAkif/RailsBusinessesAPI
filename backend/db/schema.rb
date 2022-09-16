@@ -17,6 +17,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_16_012426) do
   create_table "businesses", force: :cascade do |t|
     t.integer "match_confidence"
     t.boolean "is_matched"
+    t.string "name"
     t.string "addresses"
     t.string "phone_numbers"
     t.string "websites"

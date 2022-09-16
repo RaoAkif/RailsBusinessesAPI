@@ -13,7 +13,7 @@ rails g controller api/v1/businesses index show
 
 Add Business Model
 ```
-rails g model business match_confidence:integer is_matched:boolean addresses:string phone_numbers:string websites:string year_incorporated:string
+rails g model business match_confidence:integer is_matched:boolean name:string addresses:string phone_numbers:string websites:string year_incorporated:string
 ```
 
 Add Username and Passwords
@@ -29,4 +29,6 @@ rails db:create
 ```
 rails db:migrate
 ```
-
+```
+rails db:seed
+```

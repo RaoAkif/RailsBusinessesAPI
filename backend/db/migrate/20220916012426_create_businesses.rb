@@ -3,6 +3,7 @@ class CreateBusinesses < ActiveRecord::Migration[7.0]
     create_table :businesses do |t|
       t.integer :match_confidence
       t.boolean :is_matched
+      t.string :name
       t.string :addresses
       t.string :phone_numbers
       t.string :websites
