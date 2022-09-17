@@ -1,5 +1,4 @@
-## Backend
-#### Rails Businesses API
+# Rails Businesses API
 
 ## THIS REPO CONTAINS
   - Simple API with Business Data Endpoints [Endpoint1](https://github.com/RaoAkif/RailsBusinessesAPI/tree/main1) | [Endpoint2](https://github.com/RaoAkif/RailsBusinessesAPI/tree/main2)
