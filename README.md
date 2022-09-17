@@ -1,7 +1,14 @@
 ## Backend
 #### Rails Businesses API
 
-Initiate a backend template
+## THIS REPO CONTAINS
+  - Simple API with Business Data Endpoints [Endpoint1](https://github.com/RaoAkif/RailsBusinessesAPI/tree/main1) | [Endpoint2](https://github.com/RaoAkif/RailsBusinessesAPI/tree/main2)
+  - API with Crud [Endpoint](https://github.com/RaoAkif/RailsBusinessesAPI/tree/api_crud)
+  - API with Authentication [Endpoint](https://github.com/RaoAkif/RailsBusinessesAPI/tree/api-auth-access_authentication)
+
+## To Reinitiate the Project
+
+Initialize a backend template
 ```
 rails new rails_businesses-api --api -d postgresql
 ```
